@@ -1,0 +1,29 @@
+.notFound {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.notFound::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  color: var(--theme-color-2);
+  font-size: 20em;
+  font-family: sans-serif;
+  transform: translate(-50%, -50%);
+  opacity: 0.1;
+  content: "404";
+}
+
+.history {
+  padding: 20px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}

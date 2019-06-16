@@ -1,0 +1,36 @@
+:root {
+  --theme-color: hsl(229, 90%, 70%);
+  --theme-color-2: hsl(229, 80%, 50%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+a,
+a:visited {
+ color: var(--theme-color);
+ text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: var(--theme-color-2);
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+ul { padding-left: 15px; }
+
+li { list-style: none; }
+
+h1 { margin: 0; }

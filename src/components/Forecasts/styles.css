@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.list::-webkit-scrollbar {
+  appearance: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 15px 30px;
+}
+
+.day {
+  color: var(--theme-color);
+}
