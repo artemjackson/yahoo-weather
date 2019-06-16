@@ -1,0 +1,4 @@
+// The babelrc allows ES6 syntax for webpack.config.babel.js
+{
+ "presets": ["@babel/preset-env"]
+}
